@@ -1,260 +1,238 @@
 <br />
 <p align="center">
-  <a href="https://music.qier222.com" target="blank">
-    <img src="images/logo.png" alt="Logo" width="156" height="156">
-  </a>
-  <h2 align="center" style="font-weight: 600">YesPlayMusic</h2>
+<a href="https://music.qier222.com" target="blank">
+<img src="images/logo.png" alt="Logo" width="156" height="156">
+</a>
+<h2 align="center" style="font-weight: 600">YesPlayMusic</h2>
 
-  <p align="center">
-    高颜值的第三方网易云播放器
-    <br />
-    <a href="https://music.qier222.com" target="blank"><strong>🌎 访问DEMO</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#%EF%B8%8F-安装" target="blank"><strong>📦️ 下载安装包</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://t.me/yesplaymusic" target="blank"><strong>💬 加入交流群</strong></a>
-    <br />
-    <br />
-  </p>
+<p align="center">
+High-value third-party NetEase Cloud player
+<br />
+<a href="https://music.qier222.com" target="blank"><strong>🌎 Visit DEMO</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#%EF%B8%8F-Install" target="blank"><strong>📦️ Download the installation package</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://t.me/yesplaymusic" target="blank"><strong>💬 Join the discussion group</strong></a>
+<br />
+<br />
+</p>
 </p>
 
 [![Library][library-screenshot]](https://music.qier222.com)
 
+## New version
+The new 2.0 Alpha test version has been released. Welcome to download it from the [Releases](https://github.com/qier222/YesPlayMusic/releases) page.
+The current version will enter maintenance mode. Except for major bug fixes, no new features will be updated.
 
-## 全新版本
-全新2.0 Alpha测试版已发布，欢迎前往 [Releases](https://github.com/qier222/YesPlayMusic/releases) 页面下载。
-当前版本将会进入维护模式，除重大bug修复外，不会再更新新功能。
+## ✨ Features
 
-## ✨ 特性
+- ✅ Developed with Vue.js
+- 🔴 Login with NetEase Cloud account (scan code/mobile phone/email login)
+- 📺 Support MV playback
+- 📃 Support lyrics display
+- 📻 Support private FM/daily recommended songs
+- 🚫🤝 No social functions
+- 🌎️ Overseas users can play directly (need to log in to NetEase Cloud account)
+- 🔐 Support [UnblockNeteaseMusic](https://github.com/UnblockNeteaseMusic/server#Sound source list), automatically use [various sound sources](https://github.com/UnblockNeteaseMusic/server#Sound source list) to replace grayed-out song links (not supported by the web version)
+- "Various sound sources" refers to the sound sources enabled by default.
+- YouTube sound sources need to install `yt-dlp` by themselves.
+- ✔️ Daily automatic sign-in (sign-in on both mobile and computer)
+- 🌚 Automatic switching between Light/Dark Mode
+- 👆 Support Touch Bar
+- 🖥️ Support PWA, you can click ➕ on the right side of the address bar in Chrome/Edge to install it on your computer
+- 🟥 Support Last.fm Scrobble
+- ☁️ Support Music Cloud Drive
+- ⌨️ Custom shortcuts and global shortcuts
+- 🎧 Support Mpris
+- 🛠 More features are being developed
 
-- ✅ 使用 Vue.js 全家桶开发
-- 🔴 网易云账号登录（扫码/手机/邮箱登录）
-- 📺 支持 MV 播放
-- 📃 支持歌词显示
-- 📻 支持私人 FM / 每日推荐歌曲
-- 🚫🤝 无任何社交功能
-- 🌎️ 海外用户可直接播放（需要登录网易云账号）
-- 🔐 支持 [UnblockNeteaseMusic](https://github.com/UnblockNeteaseMusic/server#音源清单)，自动使用[各类音源](https://github.com/UnblockNeteaseMusic/server#音源清单)替换变灰歌曲链接 （网页版不支持）
-  - 「各类音源」指默认启用的音源。
-  - YouTube 音源需自行安装 `yt-dlp`。
-- ✔️ 每日自动签到（手机端和电脑端同时签到）
-- 🌚 Light/Dark Mode 自动切换
-- 👆 支持 Touch Bar
-- 🖥️ 支持 PWA，可在 Chrome/Edge 里点击地址栏右边的 ➕ 安装到电脑
-- 🟥 支持 Last.fm Scrobble
-- ☁️ 支持音乐云盘
-- ⌨️ 自定义快捷键和全局快捷键
-- 🎧 支持 Mpris
-- 🛠 更多特性开发中
+## 📦️ Installation
 
-## 📦️ 安装
+The Electron version is adapted and maintained by [@hawtim](https://github.com/hawtim) and [@qier222](https://github.com/qier222), and supports macOS, Windows, and Linux.
 
-Electron 版本由 [@hawtim](https://github.com/hawtim) 和 [@qier222](https://github.com/qier222) 适配并维护，支持 macOS、Windows、Linux。
+Visit the [Releases](https://github.com/qier222/YesPlayMusic/releases)
+page of this project to download the installation package.
 
-访问本项目的 [Releases](https://github.com/qier222/YesPlayMusic/releases)
-页面下载安装包。
+- macOS users can install it through Homebrew: `brew install --cask yesplaymusic`
 
-- macOS 用户可以通过 Homebrew 来安装：`brew install --cask yesplaymusic`
+- Windows users can install it through Scoop: `scoop install extras/yesplaymusic`
 
-- Windows 用户可以通过 Scoop 来安装：`scoop install extras/yesplaymusic`
+## ⚙️ Deploy to Vercel
 
-## ⚙️ 部署至 Vercel
+In addition to downloading the installation package, you can also deploy this project to Vercel or your server. Here is how to deploy to Vercel.
 
-除了下载安装包使用，你还可以将本项目部署到 Vercel 或你的服务器上。下面是部署到 Vercel 的方法。
-
-本项目的 Demo (https://music.qier222.com) 就是部署在 Vercel 上的网站。
+The Demo (https://music.qier222.com) of this project is a website deployed on Vercel.
 
 [![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=ohmusic&utm_campaign=oss)
 
-1. 部署网易云 API，详情参见 [Binaryify/NeteaseCloudMusicApi](https://neteasecloudmusicapi.vercel.app/#/?id=%e5%ae%89%e8%a3%85)
-   。你也可以将 API 部署到 Vercel。
+1. Deploy the Netease Cloud API. For details, see [Binaryify/NeteaseCloudMusicApi](https://neteasecloudmusicapi.vercel.app/#/?id=%e5%ae%89%e8%a3%85)
+. You can also deploy the API to Vercel.
 
-2. 点击本仓库右上角的 Fork，复制本仓库到你的 GitHub 账号。
+2. Click Fork in the upper right corner of this repository and copy this repository to your GitHub account.
 
-3. 点击仓库的 Add File，选择 Create new file，输入 `vercel.json`，将下面的内容复制粘贴到文件中，并将 `https://your-netease-api.example.com` 替换为你刚刚部署的网易云 API 地址：
+3. Click Add File in the repository, select Create new file, enter `vercel.json`, copy and paste the following content into the file, and replace `https://your-netease-api.example.com` with the NetEase Cloud API address you just deployed:
 
 ```json
 {
-  "rewrites": [
-    {
-      "source": "/api/:match*",
-      "destination": "https://your-netease-api.example.com/:match*"
-    }
-  ]
+"rewrites": [
+{
+"source": "/api/:match*",
+"destination": "https://your-netease-api.example.com/:match*"
+}
+]
 }
 ```
 
-4. 打开 [Vercel.com](https://vercel.com)，使用 GitHub 登录。
+4. Open [Vercel.com](https://vercel.com) and log in with GitHub.
 
-5. 点击 Import Git Repository 并选择你刚刚复制的仓库并点击 Import。
+5. Click Import Git Repository and select the repository you just copied and click Import.
 
-6. 点击 PERSONAL ACCOUNT 旁边的 Select。
+6. Click Select next to PERSONAL ACCOUNT.
 
-7. 点击 Environment Variables，填写 Name 为 `VUE_APP_NETEASE_API_URL`，Value 为 `/api`，点击 Add。最后点击底部的 Deploy 就可以部署到
-   Vercel 了。
+7. Click Environment Variables, fill in Name as `VUE_APP_NETEASE_API_URL`, Value as `/api`, and click Add. Finally, click Deploy at the bottom to deploy to
+Vercel.
 
-## ⚙️ 部署到自己的服务器
+## ⚙️ Deploy to your own server
 
-除了部署到 Vercel，你还可以部署到自己的服务器上
+In addition to deploying to Vercel, you can also deploy to your own server
 
-1. 部署网易云 API，详情参见 [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
-2. 克隆本仓库
+1. Deploy Netease Cloud API, see [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) for details
+
+2. Clone this repository
 
 ```sh
 git clone --recursive https://github.com/qier222/YesPlayMusic.git
 ```
 
-3. 安装依赖
+3. Install dependencies
 
 ```sh
 yarn install
 
 ```
 
-4. （可选）使用 Nginx 反向代理 API，将 API 路径映射为 `/api`，如果 API 和网页不在同一个域名下的话（跨域），会有一些 bug。
+4. (Optional) Use Nginx reverse proxy API and map the API path to `/api`. If the API and the web page are not in the same domain name (cross-domain), there will be some bugs.
 
-5. 复制 `/.env.example` 文件为 `/.env`，修改里面 `VUE_APP_NETEASE_API_URL` 的值为网易云 API 地址。本地开发的话可以填写 API 地址为 `http://localhost:3000`，YesPlayMusic 地址为 `http://localhost:8080`。如果你使用了反向代理 API，可以填写 API 地址为 `/api`。
+5. Copy the `/.env.example` file to `/.env`, and modify the value of `VUE_APP_NETEASE_API_URL` to the NetEase Cloud API address. For local development, you can fill in the API address as `http://localhost:3000`, and the YesPlayMusic address as `http://localhost:8080`. If you use a reverse proxy API, you can fill in the API address as `/api`.
 
 ```
 VUE_APP_NETEASE_API_URL=http://localhost:3000
 ```
 
-6. 编译打包
+6. Compile and package
 
 ```sh
 yarn run build
 ```
 
-7. 将 `/dist` 目录下的文件上传到你的 Web 服务器
+7. Upload the files in the `/dist` directory to your web server
 
-## ⚙️ Docker 部署
+## ⚙️ Docker deployment
 
-1. 构建 Docker Image
+1. Build Docker Image
 
 ```sh
 docker build -t yesplaymusic .
 ```
 
-2. 启动 Docker Container
+2. Start Docker Container
 
 ```sh
 docker run -d --name YesPlayMusic -p 80:80 yesplaymusic
 ```
 
-3. Docker Compose 启动
+3. Start Docker Compose
 
 ```sh
 docker-compose up -d
 ```
 
-YesPlayMusic 地址为 `http://localhost`
+YesPlayMusic address is `http://localhost`
 
-## ⚙️ 部署至 Replit
+## ⚙️ Deploy to Replit
 
-1. 新建 Repl，选择 Bash 模板
+1. Create a new Repl and select the Bash template
 
-2. 在 Replit shell 中运行以下命令
+2. In the Replit shell Run the following command in
 
 ```sh
 bash <(curl -s -L https://raw.githubusercontent.com/qier222/YesPlayMusic/main/install-replit.sh)
 ```
 
-3. 首次运行成功后，只需点击绿色按钮 `Run` 即可再次运行
+3. After the first run is successful, just click the green button `Run` to run it again
 
-4. 由于 replit 个人版限制内存为 1G（教育版为 3G），构建过程中可能会失败，请再次运行上述命令或运行以下命令：
+4. Since the memory limit of replit personal version is 1G (educational version is 3G), the build process may fail. Please run the above command again or run the following command:
 
 ```sh
 cd /home/runner/${REPL_SLUG}/music && yarn install && yarn run build
 ```
 
-## 👷‍♂️ 打包客户端
+## 👷‍♂️ Package the client
 
-如果在 Release 页面没有找到适合你的设备的安装包的话，你可以根据下面的步骤来打包自己的客户端。
+If you can't find the installation package for your device on the Release page, you can package your own client according to the steps below.
 
-1. 打包 Electron 需要用到 Node.js 和 Yarn。可前往 [Node.js 官网](https://nodejs.org/zh-cn/) 下载安装包。安装 Node.js
-   后可在终端里执行 `npm install -g yarn` 来安装 Yarn。
+1. Node.js and Yarn are required to package Electron. You can go to [Node.js official website](https://nodejs.org/zh-cn/) to download the installation package. Install Node.js
+After that, you can run `npm install -g yarn` in the terminal to install Yarn.
 
-2. 使用 `git clone --recursive https://github.com/qier222/YesPlayMusic.git` 克隆本仓库到本地。
+2. Use `git clone --recursive https://github.com/qier222/YesPlayMusic.git` to clone this repository locally.
 
-3. 使用 `yarn install` 安装项目依赖。
+3. Use `yarn install` to install project dependencies.
 
-4. 复制 `/.env.example` 文件为 `/.env` 。
+4. Copy the `/.env.example` file to `/.env`.
 
-5. 选择下列表格的命令来打包适合的你的安装包，打包出来的文件在 `/dist_electron` 目录下。了解更多信息可访问 [electron-builder 文档](https://www.electron.build/cli)
+5. Select the command in the following table to package the installation package that suits you. The packaged files are in the `/dist_electron` directory. For more information, visit the [electron-builder documentation](https://www.electron.build/cli)
 
-| 命令                                       | 说明                      |
+| Command | Description |
 | ------------------------------------------ | ------------------------- |
-| `yarn electron:build --windows nsis:ia32`  | Windows 32 位             |
-| `yarn electron:build --windows nsis:arm64` | Windows ARM               |
-| `yarn electron:build --linux deb:armv7l`   | Debian armv7l（树莓派等） |
-| `yarn electron:build --macos dir:arm64`    | macOS ARM                 |
+| `yarn electron:build --windows nsis:ia32` | Windows 32-bit |
+| `yarn electron:build --windows nsis:arm64` | Windows ARM |
+| `yarn electron:build --linux deb:armv7l` | Debian armv7l (Raspberry Pi, etc.) |
+| `yarn electron:build --macos dir:arm64` | macOS ARM |
 
-## :computer: 配置开发环境
+## :computer: Configure the development environment
 
-本项目由 [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) 提供 API。
+This project is contributed by [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) provides API.
 
-运行本项目
+Run this project
 
 ```shell
-# 安装依赖
+# Install dependencies
 yarn install
 
-# 创建本地环境变量
+# Create local environment variables
 cp .env.example .env
 
-# 运行（网页端）
+# Run (web)
 yarn serve
 
-# 运行（electron）
+# Run (electron)
 yarn electron:serve
 ```
 
-本地运行 NeteaseCloudMusicApi，或者将 API [部署至 Vercel](#%EF%B8%8F-部署至-vercel)
+Run NeteaseCloudMusicApi locally, or deploy the API to Vercel (#%EF%B8%8F-deploy to-vercel)
 
 ```shell
-# 运行 API （默认 3000 端口）
+# Run API (default port 3000)
 yarn netease_api:run
 ```
 
 ## ☑️ Todo
 
-查看 Todo 请访问本项目的 [Projects](https://github.com/qier222/YesPlayMusic/projects/1)
+To view Todo, please visit [Projects](https://github.com/qier222/YesPlayMusic/projects/1) of this project
 
-欢迎提 Issue 和 Pull request。
+Issues and Pull requests are welcome.
 
-## 📜 开源许可
+## 📜 Open Source License
 
-本项目仅供个人学习研究使用，禁止用于商业及非法用途。
+This project is for personal study and research only. Commercial and illegal use is prohibited.
 
-基于 [MIT license](https://opensource.org/licenses/MIT) 许可进行开源。
+Open source based on [MIT license](https://opensource.org/licenses/MIT).
 
-## 灵感来源
+## Inspiration
 
-API 源代码来自 [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+API source code from [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 - [Apple Music](https://music.apple.com)
 - [YouTube Music](https://music.youtube.com)
 - [Spotify](https://www.spotify.com)
-- [网易云音乐](https://music.163.com)
+- [NetEase Cloud Music](https://music.163.com)
 
-## 🖼️ 截图
-
-![lyrics][lyrics-screenshot]
-![library-dark][library-dark-screenshot]
-![album][album-screenshot]
-![home-2][home-2-screenshot]
-![artist][artist-screenshot]
-![search][search-screenshot]
-![home][home-screenshot]
-![explore][explore-screenshot]
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[album-screenshot]: images/album.png
-[artist-screenshot]: images/artist.png
-[explore-screenshot]: images/explore.png
-[home-screenshot]: images/home.png
-[home-2-screenshot]: images/home-2.png
-[lyrics-screenshot]: images/lyrics.png
-[library-screenshot]: images/library.png
-[library-dark-screenshot]: images/library-dark.png
-[search-screenshot]: images/search.png
+## 🖼️ Screenshots ![lyrics][lyrics-screenshot] ![library-dark][library-dark-screenshot] ![album][album-screenshot] ![home-2][home-2-screenshot] ![artist][artist-screenshot] ![search][search-screenshot] ![home][home-screenshot] ![explore][explore-screenshot] <!-- MARKDO WN LINKS & IMAGES --> <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links --> [album-screenshot]: images/album.png [artist-screenshot]: images/artist.png [explore-screenshot]: images/explore.png [home-screenshot]: images/home.png [home-2-screenshot]: images/home-2.png [lyrics-screenshot]: images/lyrics.png [library-screenshot]: images/library.png [library-dark-screenshot]: images/library-dark.png [search-screenshot]: images/search.png
