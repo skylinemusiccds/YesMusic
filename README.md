@@ -235,4 +235,25 @@ API source code from [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryi
 - [Spotify](https://www.spotify.com)
 - [NetEase Cloud Music](https://music.163.com)
 
-## 🖼️ Screenshots ![lyrics][lyrics-screenshot] ![library-dark][library-dark-screenshot] ![album][album-screenshot] ![home-2][home-2-screenshot] ![artist][artist-screenshot] ![search][search-screenshot] ![home][home-screenshot] ![explore][explore-screenshot] <!-- MARKDO WN LINKS & IMAGES --> <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links --> [album-screenshot]: images/album.png [artist-screenshot]: images/artist.png [explore-screenshot]: images/explore.png [home-screenshot]: images/home.png [home-2-screenshot]: images/home-2.png [lyrics-screenshot]: images/lyrics.png [library-screenshot]: images/library.png [library-dark-screenshot]: images/library-dark.png [search-screenshot]: images/search.png
+## 🖼️ Screenshots
+![lyrics][lyrics-screenshot]
+![library-dark][library-dark-screenshot]
+![album][album-screenshot]
+![home-2][home-2-screenshot]
+![artist][artist-screenshot]
+![search][search-screenshot]
+![home][home-screenshot]
+![explore][explore-screenshot]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[album-screenshot]: images/album.png
+[artist-screenshot]: images/artist.png
+[explore-screenshot]: images/explore.png
+[home-screenshot]: images/home.png
+[home-2-screenshot]: images/home-2.png
+[lyrics-screenshot]: images/lyrics.png
+[library-screenshot]: images/library.png
+[library-dark-screenshot]: images/library-dark.png
+[search-screenshot]: images/search.png
